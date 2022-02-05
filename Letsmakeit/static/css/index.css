@@ -1,0 +1,139 @@
+a:link{color: #F23D4C;}      /* 未访问链接*/
+a:visited {color: #f23d4c;}  /* 已访问链接 */
+a:hover {color:#F23D4C;}  /* 鼠标移动到链接上 */
+a:active {color:#F23D4C;}  /* 鼠标点击时 */
+
+a{
+    text-decoration:none;
+}
+
+/*header{*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.logo{*/
+/*    height: 100px;*/
+/*    margin-top: 30px;*/
+/*    margin-left: 30px;*/
+/*}*/
+
+/*.logo_div{*/
+/*    float: left;*/
+/*}*/
+
+/*.menu{*/
+/*    width: 100%;*/
+/*}*/
+
+/*.menu ul{*/
+/*    margin-left: 35em;*/
+/*    margin-top: 70px;*/
+/*    list-style: none;*/
+/*    !*margin-right: 80px;*!*/
+/*    color: #F23D4C;*/
+/*    display: table;*/
+/*}*/
+
+/*.menu li{*/
+/*    width: 160px;*/
+/*    float: right;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    color: #F23D4C;*/
+/*    display: table-cell;*/
+/*}*/
+
+/*.button{*/
+/*    display:inline;*/
+/*}*/
+
+/*.list{*/
+/*    text-align:center;*/
+/*}*/
+
+.background{
+    margin-top: 100px;
+    height: 450px;
+    text-align: center;
+    z-index: 100;
+}
+
+.background img{
+    max-height: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    /*color: white;*/
+}
+
+#title_en{
+    position: absolute;
+    top: 8px;
+    left: 150px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    letter-spacing: 8px;
+}
+
+.title-pt{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.title-zh{
+    position: absolute;
+    top: 144px;
+    left: 150px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.line{
+    position: absolute;
+    top: 250px;
+    right: 400px;
+    width: 5px;
+    height: 23px;
+    background: #F23D4C;
+    display: inline-block;
+    /*margin-top: 3px;*/
+    vertical-align: top;
+    /*margin-right: 10px;*/
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.intro-title{
+    position: absolute;
+    top: 250px;
+    right: 1px;
+    width: 400px;
+    height: 23px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.intro{
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    width: 370px;
+    height: 23px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: 600;
+}

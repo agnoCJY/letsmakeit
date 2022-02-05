@@ -1,0 +1,152 @@
+/*.menu_a:link{color: #F23D4C;}    !* 未访问链接*!*/
+/*.menu_a:visited {color: #f23d4c;}  !* 已访问链接 *!*/
+/*.menu_a:hover {color:#F23D4C;}  !* 鼠标移动到链接上 *!*/
+/*.menu_a:active {color:#F23D4C;}  !* 鼠标点击时 *!*/
+
+/*a{*/
+/*    text-decoration:none;*/
+/*}*/
+
+/*header{*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.logo{*/
+/*    height: 100px;*/
+/*    margin-top: 30px;*/
+/*    margin-left: 30px;*/
+/*}*/
+
+/*.logo_div{*/
+/*    float: left;*/
+/*}*/
+
+/*.menu{*/
+/*    width: 100%;*/
+/*}*/
+
+/*.menu ul{*/
+/*    margin-left: 35em;*/
+/*    margin-top: 70px;*/
+/*    list-style: none;*/
+/*    !*margin-right: 80px;*!*/
+/*    color: #F23D4C;*/
+/*    display: table;*/
+/*}*/
+
+/*.menu li{*/
+/*    width: 160px;*/
+/*    float: right;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    color: #F23D4C;*/
+/*    display: table-cell;*/
+/*}*/
+
+/*.button{*/
+/*    display:inline;*/
+/*}*/
+
+/*.list{*/
+/*    text-align:center;*/
+/*}*/
+
+.background{
+    /*margin-top: 100px;*/
+    height:60px;
+    text-align: left;
+    z-index: 100;
+    margin-left: 35px;
+}
+
+.background img{
+    max-height: 100%;
+    /*margin: 0 auto;*/
+    display: inline-block;
+}
+
+.switcher {
+    position: relative;
+    text-align: center;
+    /*color: white;*/
+}
+
+.navigate{
+    position: absolute;
+    top: 23px;
+    left: 95px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+
+.search{
+    position: absolute;
+    top: 23px;
+    left: 265px;
+    font-family: 'Raleway', sans-serif;
+    color: #F23D4C;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.navigate_a:link{color: #F23D4C;}
+.navigate_a:visited {color: #F23D4C;}  /* 已访问链接 */
+.navigate_a:hover {color: #F23D4C;}  /* 鼠标移动到链接上 */
+.navigate_a:active {color: #F23D4C;}  /* 鼠标点击时 */
+
+.search_a:link{color: white;}
+.search_a:visited {color: white;}  /* 已访问链接 */
+.search_a:hover {color: white;}  /* 鼠标移动到链接上 */
+.search_a:active {color: white;}  /* 鼠标点击时 */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+
+.recipecard{
+    width: 1250px;/*之后要改回去1200*/
+    /*margin-left: 100px;*/
+}
+
+.recipecard ul{
+    list-style: none;
+}
+
+.recipe{
+    float: left;
+    width: 30%;
+    /*margin-right: 4%;*/
+    height: 350px;
+}
+
+.recipecard li:last-child{
+    margin-right: 0%;
+}
+
+#filter{
+    float: right;
+    width: 10%;
+    /*margin-right: 4%;*/
+    height: 180px;
+}
